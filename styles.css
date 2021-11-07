@@ -1,0 +1,40 @@
+.body {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    background-color: #311b92;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#root img {
+    display: flex;
+    justify-content: star;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem;
+    border: 4px solid #311b92;
+    border-radius: 10px;
+    width: 350px;
+
+}
+
+.card img {
+    width: inherit
+}
